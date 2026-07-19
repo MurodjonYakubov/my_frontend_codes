@@ -1,0 +1,22 @@
+
+body{
+    height: 100vh;
+    background-image: url(https://suret.pics/uploads/posts/2023-09/1695389336_1-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 140px;
+    color: white;
+}
+
+p{
+    font-size: 140px;
+    color: white;
+}
+span{
+    color: yellow
+}

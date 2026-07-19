@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-dars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .body {
+            padding: 0 15px; 
+            font-family: sans-serif;
+
+        }
+
+        .wrapper {
+            background-color: #f4f5f7;
+            height: 100vh;
+            display: flex;
+            gap: 25px;
+
+        }
+
+        .box {
+            width: 50%;
+            height: inherit;
+            background-color: ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .itembox {
+            width: 80%;
+            height: 65vh;
+
+            text-align: center;
+        }
+
+        .itembox>h1 {
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        .formbox {
+            display: flex;
+        }
+
+        .formboxitemLeft,
+        .formboxitemRight {
+            width: 50%;
+            height: 410px;
+        }
+
+        .formboxitemRight {
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 30px 30px 0;
+        }
+
+        .formboxitemLeft {
+            background-color: #fe4740;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px 0 0 30px;
+        }
+
+        .textwrapper {
+            color: #fff;
+        }
+
+        .formwrapper input {
+            margin-bottom: 8px;
+            padding: 8px 10px;
+            background-color: #EEEEEE;
+            border: none;
+            font-size: 10px;
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .formwrapper {
+            padding: 4px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="box">
+            <div class="itembox">
+                <h1>Sigin Up</h1>
+                <div class="formbox">
+                    <div class="formboxitemLeft">
+                        <div class="textwrapper">
+                            <h2>Welcome Back!</h2>
+                            <br>
+                            <br>
+                            <p style="font-size: 15px; color: #ff968b;">Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eos, saepe.</p>
+                            <br>
+                            <button
+                                style="padding: 6px 35px; border-radius: 20px; border: 1px solid #fff; background-color: transparent; color: #fff; font-size: 12px;">Sign
+                                in</button>
+                        </div>
+                    </div>
+                    <div class="formwrapper" style="background-color: #fff;">
+                        <h2>Create Account</h2>
+                        <br>
+                        <div style="height: 50px; width: 190px; display: flex; border: 2px;">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <br>
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <input type="submit" value="Sain Up"
+                                style="padding: 6px 35px; border-radius: 20px; border: 1px solid #fff; background-color:#fe4740; color: #fff; font-size: 12px ">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="itembox">
+                <h1>Sign Up</h1>
+                <div class="formbox">
+                    <div class="formboxitemRight" style="border-radius: 30px 0  0 30px;">
+                        <div class="formwrapper">
+                            <h2>Sign in</h2>
+                            <br>
+                            <div style="height: 50px; width: 190px; display: flex; border: 2px;">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <br>
+                            <form>
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <input type="submit" value="Sain Up"
+                                    style="padding: 6px 35px; border-radius: 20px; border: 1px solid #fff; background-color:#fe4740; color: #fff; font-size: 12px ">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="formboxitemLeft" style="border-radius: 0 30px  30px 0 ;">
+                        <div class="textwrapper">
+                            <h2>Hello, Friend!</h2>
+                            <br>
+                            <br>
+                            <p style="font-size: 15px; color: #ff968b;">Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eos, saepe.</p>
+                            <br>
+                            <button
+                                style="padding: 6px 35px; border-radius: 20px; border: 1px solid #fff; background-color: transparent; color: #fff; font-size: 12px;">Sign
+                                in</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

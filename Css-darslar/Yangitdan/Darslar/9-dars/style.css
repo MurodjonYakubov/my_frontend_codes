@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Position:
+1. static
+2. relative
+3. absolute
+4. fixed
+5. stiky
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* transform: translate(-50%, -50%); */
+}
+
+.box3{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+header ul li{
+    font-size: 20px;
+}
+
+header button{
+    padding: 5px 13px;
+    border-radius: 8px;
+    border: none;
+}
+
+.gotop{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}

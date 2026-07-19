@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form style="border: 2px solid gray; width: 300px; border-radius: 10px; padding: 20px;">
+        <h3 style="text-align: center;">Ro'yxatdan o'ting</h3>
+        <br>
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <label for="ism" style="white-space: nowrap;">First Name:</label>
+            <input type="text" id="ism" placeholder="Ism kiriting..." style="padding: 5px 10px; width: 100%;">
+        </div>
+        <br>
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <label for="ism" style="white-space: nowrap;">Last Name:</label>
+            <input type="text" id="ism" placeholder="Familya kiriting..." style="padding: 5px 10px; width: 100%;">
+        </div>
+        <br>
+        <label for="course">Course</label>
+        <select id="course" style="padding: 5px 10px; width: 100%;">
+            <option value="html">Html</option>
+            <option value="Css">Css</option>
+            <option value="JS">JavaScript</option>
+            <option value="RJ">React JS</option>
+        </select>
+        <br>
+        <br>
+        
+        <label for="m">Male</label>
+        <input type="radio" id="m" name="r">
+
+        <label for="f">Famele</label>
+        <input type="radio" id="f" name="r">
+        <br><br>
+        <input type="checkbox" id="c">
+        <label for="c">Eslab qolish</label>
+        <br><br>
+        <input type="button" style="padding: 5px 10px; width: 100%;" value="Click me">
+    </form>
+</body>
+</html>

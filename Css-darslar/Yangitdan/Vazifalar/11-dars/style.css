@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    background-image: url(./Assets/img/bg.png);
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.one .navbar .logotext{
+    display: flex;
+    gap: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.one .navbar{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one .navbar .logotext img{
+    width: 25px;
+    height: 25px;
+}
+
+.one .navbar .logotext h1{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.one .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.one .navbar ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.one .card{
+    width: 400px;
+    height: 415px;
+    border-radius: 5px;
+    background-color: #004AF2;
+    padding: 19px 30px;
+    gap: 25px;
+    position: absolute;
+    left: 50px;
+    top: 260px;
+}
+
+.one .card .header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.one .card .footer{
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.one .card .minicards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.one .card .minicards .wrapper{
+    display: flex;
+    gap: 15px;
+}
+
+.one .card .minicards input::placeholder{
+    color: white;
+}
+
+.one .card .footer input{
+    background-color: #004AF2;
+    border: none;
+}
+
+.one .card .footer hr{
+    display: flex;
+    flex-direction: column;
+}
+
+.one .card .footer .minicards .line{
+    width: 340px;
+    height: 1px;
+    border: 0.5px solid #FFFFFF40;
+}
+
+.one .card .footer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(255, 144, 62, 1), rgba(255, 44, 44, 1));
+    cursor: pointer;
+}
+
+.two{
+    margin: 105px 50px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.two .cardtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two .cardtext p{
+    color: rgba(88, 88, 88, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.two .cardtext h1{
+    color: rgba(44, 44, 44, 1);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.two .cardtext ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.two .cardtext ul .red{
+    color: #FF3E2F;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.two .cardtext ul li{
+    color: #004AF2;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.two .cardtext ul .linelired{
+    width: 73px;
+    height: 2px;
+    background-color: #FF3E2F;
+}
+
+.two .cardtext ul .lineli{
+    width: 10px;
+    height: 2px;
+    background-color: #004AF2;
+}
+
+.one .textpo{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 30px;
+    text-align: right;
+    margin-right: 51px;
+}
+
+.one .textpo .big{
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.one .textpo .small{
+    font-size: 15px;
+    font-weight: 400;
+}

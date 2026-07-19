@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.rainbow{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(at bottom, white 0, white 30%, red 30%, red 35%, orange 35%, orange 40%, yellow 40%, yellow 45%, green 45%, green 50%, blue 50%, blue 55%, blueviolet 55%, blueviolet 60%, pink 60%, pink 65%, white 65%, white 100%);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: sans-serif;
+
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%, -50%);
+}

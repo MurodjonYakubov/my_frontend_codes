@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.container{
+    max-width: 1380px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+header{
+    color: white;
+}
+
+header .header_sections1{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 7px 15px;
+}
+
+header .header_sections1 .header_sections1_card{
+    width: 100%;
+    display: flex;
+    color: white;
+    gap: 438px;
+    margin-left: 495px;
+    justify-content: space-between;
+}
+
+header .header_sections1 .header_sections1_card .card_1{
+    display: flex;
+    gap: 4px;
+}
+
+header .header_sections1 .header_sections1_card .card_1 h1{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+header .header_sections1 .header_sections1_card .card_1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #000;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    height: 16px;
+}
+
+header .header_sections1 .header_sections1_card .card_2{
+    display: flex;
+    gap: 12px;
+}
+
+header .header_sections1 .header_sections1_card .card_2 h1{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+}
+
+/* ################################################# */
+
+header .header_sections2{
+    padding: 8px 68px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 274px;
+}
+
+header .header_sections2 .card_1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+header .header_sections2 .card_3{
+    display: flex;
+    gap: 24px;
+}
+
+header .header_sections2 .card_3 img{
+    width: 16px;
+}
+
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+
+/* ############################################### */
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.categories ul{
+    gap: 24px;
+    list-style-type: none;
+    display: flex;
+}
+
+.text_wrapper{
+    margin-top: 30px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text_wrapper h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    gap: 64px;
+    margin-bottom: 30px;
+}
+
+.card_wrapper .card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 423px;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(219, 219, 219);
+}
+
+.card_wrapper .card p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card_wrapper .card h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #F5F4F4;
+}
+
+.footer_text{
+    max-width: 1256px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.footer_text ul{
+    padding: 20px;
+    list-style-type: none;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_text ul li:first-child{
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer_text .input_wrapper{
+    display: flex;
+    align-items: start;
+    padding: 20px;
+}
+
+.footer_text .input_wrapper input{
+    border: none;
+    padding: 18px 268px 18px 15px;
+}
+
+.footer_text .input_wrapper .img_wrapper{
+    width: 52px;
+    height: 53px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text .input_wrapper .img_wrapper img{
+    width: 24px;
+}
+
+.footer_reverse{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer_reverse ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    font-size: 12px;    
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+}
+
+.footer_reverse ul:nth-child(2){
+    margin-bottom: 20px;
+}

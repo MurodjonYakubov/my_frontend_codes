@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different HTML Structure</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0; /* Remove default margins */
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "nav main"
+                "footer footer";
+            grid-template-columns: 200px 1fr; /* Adjust column widths as needed */
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        header {
+            grid-area: header;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            display: block; /* Make list items clickable */
+        }
+
+        main {
+            grid-area: main;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        article h2 {
+            color: #555;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .open-replay {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body style="background-color: #2068BC;">
+
+    <header>
+        <h1>Website Title</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>First Article Title</h2>
+            <p>This is the content of the first article.  It could be a longer piece of text with multiple paragraphs.</p>
+        </article>
+
+        <article>
+            <h2>Second Article Title</h2>
+            <p>This is the content of the second article.  It might include images or other media.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+    <div class="open-replay">
+        Open Replay
+    </div>
+
+</body>
+</html>
