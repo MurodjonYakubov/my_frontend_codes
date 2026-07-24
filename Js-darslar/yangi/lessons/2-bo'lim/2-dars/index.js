@@ -17,8 +17,6 @@ if (yosh>0) {
     console.log("Siz hali tug'ilmagansiz");
 }
 
-
-
 // Sharpness V
 // Looting III
 // Unbreaking III
