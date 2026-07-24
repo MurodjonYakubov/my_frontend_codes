@@ -7,15 +7,15 @@ if(a!=c && c!=b){
     console.log("Eng o'rtacha son:",c);
 }
 
-let yil = prompt("Tug'ilgan yilingizni kiriting!")
+// let yil = prompt("Tug'ilgan yilingizni kiriting!")
 
-let yosh = 2026-yil
+// let yosh = 2026-yil
 
-if (yosh>0) {
-    console.log(`Siz ${yil}-yili dunyoga kelgansiz.`, "Siz", yosh , "yoshdasiz")    
-}else{
-    console.log("Siz hali tug'ilmagansiz, bu yil hali kelmagan");
-}
+// if (yosh>0) {
+//     console.log(`Siz ${yil}-yili dunyoga kelgansiz.`, "Siz", yosh , "yoshdasiz")    
+// }else{
+//     console.log("Siz hali tug'ilmagansiz, bu yil hali kelmagan");
+// }
 
 // Sharpness V
 // Looting III
