@@ -76,7 +76,7 @@ console.log(son2.padEnd(4, "-"));
 
 
 
-console.log("=".repeat(20));
+console.log("Salom dunyo ".repeat(20));
 
 console.log("JS ".repeat(4));
 
@@ -98,8 +98,8 @@ console.log(text18.replace("Olma", "Anor"));
 let text19 = "Java Java Java";
 console.log(text19.replaceAll("Java", "JS"));
 
-let text20 = "2025-2025-2025";
-console.log(text20.replaceAll("2025", "2026"));
+let text20 = "Salom!men!bugun!Oxfordga!keldim.";
+console.log(text20.replaceAll("!", " "));
 
 let text21 = "Ali Ali Vali Ali";
 console.log(text21.replaceAll("Ali", "Hasan"));

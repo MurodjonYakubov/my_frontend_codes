@@ -16,11 +16,3 @@ if(a!=c && c!=b){
 // }else{
 //     console.log("Siz hali tug'ilmagansiz, bu yil hali kelmagan");
 // }
-
-// Sharpness V
-// Looting III
-// Unbreaking III
-// Mending I
-// Fire Aspect II
-// Sweeping Edge III
-// Knockback II
