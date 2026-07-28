@@ -38,3 +38,18 @@
 // }
 // console.log(getStr(str));
 
+
+
+// 4-masala
+// let str = "AlgOrItm and OXForD"
+// let strBig = ""
+// let strSmal = ""
+
+// for (let value of str) {
+//     if (value == " ") {}
+//     else if (value == value.toLowerCase()) strSmal += value
+//     else strBig += value
+// }
+
+// console.log(strBig);
+// console.log(strSmal);
