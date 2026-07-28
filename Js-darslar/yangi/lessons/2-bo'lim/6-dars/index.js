@@ -22,3 +22,19 @@
 // }
 
 // console.log(getSum(str));
+
+
+
+// 3-masala
+// let str = "Algoritm and Oxford"
+// function getStr(str) {
+//     let half = ""
+//     for (let i = 0; i < str.length; i++) {
+//         if (!(i % 2)) {
+//             half += str[i]
+//         }
+//     }
+//     return half
+// }
+// console.log(getStr(str));
+
