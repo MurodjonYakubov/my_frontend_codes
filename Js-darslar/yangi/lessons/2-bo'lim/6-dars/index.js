@@ -1,8 +1,24 @@
-let str = "Men Oxfordda IT o'qiyman!"
+// 1-masala
+// let str = "Men Oxfordda IT o'qiyman!"
 
-let reverse = ""
+// let reverse = ""
 
-for(let i = str.length - 1; i >= 0; i--){
-    reverse += str.at(i)
-}
-console.log(reverse);
+// for(let i = str.length - 1; i >= 0; i--){
+//     reverse += str.at(i)
+// }
+// console.log(reverse);
+
+
+
+// 2-masala
+// let str = "Oxford"
+
+// function getSum(data) {
+//     let sum = 0
+//     for (let i = 0; i < data.length; i++) {
+//         sum += data[i].charCodeAt()
+//     }
+//     return sum
+// }
+
+// console.log(getSum(str));
